@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;400;500&family=Karla:wght@300;400&display=swap');
+@import url("https://use.typekit.net/dsj6kle.css");
+
+body {
+    background-color: #E5E5E5;
+}
+
+h1 {
+    font-family: antarctican-mono, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3em;
+    margin: 0;
+}
+
+h3 {
+    font-family: 'Karla', sans-serif;
+    font-weight: 300;
+    margin: 0;
+}
+
+p { 
+    /* font-family: 'Inconsolata', monospace;
+    font-weight: 400; */
+    /* margin: 0;   */
+}
+
+#test {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 400;
+    font-size: 1em;
+    padding: .3em;
+    position: absolute;
+    visibility: hidden;
+}
+
+#stats {
+    flex: 2;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-left: 1.5em;
+    padding-top: 20em;
+}
+
+#quotes {
+    flex: 6;
+    padding-left: 15em;
+    z-index: 99;
+}
+
+#quotes span {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 400;
+    display: inline-block;
+    padding: .3em;
+}
+
+#quotes span:hover {
+   cursor: pointer;
+   /* padding: 20em; */
+}
+
+.cursor {
+    border-left: .05em solid;
+    animation: caret 1s steps(1) infinite;
+}
+@keyframes caret {
+    50% {
+      border-color: transparent;
+    }
+  }
+
+#viz {
+    display: flex;
+    /* align-items: center; */
+}
+
+.neg {
+    color: white;
+    background-color:#343434;
+}
+
+.pos {
+    color: black;
+    background-color: white;
+    margin-left: 1em;
+}
+
+
